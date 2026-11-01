@@ -47,72 +47,39 @@ The goal is to understand the ideas behind each technique, experiment with imple
 
 ## Repository structure
 
+The current repository is organized around the supervised-learning material already added:
+
 ```text
 machine-learning/
 ├── 01_Supervised_learning/
 │   ├── Classification/
-│   │   ├── Logistic Regression/
-│   │   ├── Model Evaluation/
-│   │   ├── Support Vector Machine/
-│   │   ├── Scaling/
-│   │   ├── Scikit-learn Pipeline/
-│   │   ├── Naive Bayes/
-│   │   └── Exercises/
+│   │   ├── 1Logistic Regression/
+│   │   ├── 2Model Evaluation/
+│   │   ├── 3support_vector_machine/
+│   │   ├── 4Scalling/
+│   │   ├── 5sklearn_pipeline/
+│   │   ├── 6Niave_bayes/
+│   │   └── Excercises/
 │   └── Regression/
-│       ├── Linear Regression/
-│       ├── Multiple Linear Regression/
-│       ├── Cost Function/
-│       ├── Gradient Descent/
-│       ├── Train-Test Split/
-│       ├── Model Evaluation/
-│       ├── Polynomial Regression/
-│       ├── Underfitting & Overfitting/
-│       ├── L1 & L2 Regularization/
-│       └── Exercises/
+│       ├── 1linear regression single variable/
+│       ├── 2Multiple Linear Regression/
+│       ├── 3Cost_Function/
+│       ├── 4Gradient_Descent_Merhod/
+│       ├── 5train_test/
+│       ├── 6Model_Evaluation/
+│       ├── 7Polynomial_Regression/
+│       ├── 8under_over_balance_fitting/
+│       ├── 9L1L2Regularisation/
+│       └── Excercises/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── requirements.txt
 ├── CONTRIBUTING.md
 └── README.md
 ```
 
-*Folder names above are descriptive; existing directory names are retained so current notebook and dataset links remain unchanged.*
-
-## Getting started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/utkarshxkansal/machine-learning.git
-cd machine-learning
-```
-
-### 2. Create and activate a virtual environment
-
-**Windows (Command Prompt):**
-```cmd
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-**macOS / Linux:**
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install dependencies
-
-```bash
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### 4. Launch Jupyter
-
-```bash
-jupyter notebook
-```
-
-Open a notebook from the relevant topic folder. You can also preview notebooks directly on GitHub.
+Some existing folder names contain legacy spellings. They are retained for now to avoid breaking notebook and dataset paths; they can be cleaned up gradually with matching local changes.
 
 ## Tools
 
