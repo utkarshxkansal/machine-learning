@@ -1,0 +1,106 @@
+# Underfitting, Overfitting and Balanced Fit
+
+## 1. Underfitting
+
+Underfitting occurs when a model is too simple to learn the actual pattern in the data.
+
+### Characteristics:
+- High training error
+- High testing error
+- Poor performance on both training and testing data
+- High bias
+- Model is too simple
+
+### Example:
+Using a straight-line model for data that has a strong curved relationship.
+
+### How to fix:
+- Increase model complexity
+- Add useful features
+- Use polynomial features
+- Reduce excessive regularization
+
+---
+
+## 2. Overfitting
+
+Overfitting occurs when a model learns the training data too well, including noise and random fluctuations.
+
+### Characteristics:
+- Very low training error
+- High testing error
+- Training performance is much better than testing performance
+- High variance
+- Model is too complex
+
+### Example:
+Using a very high-degree polynomial such as degree 15 or 20 for a simple dataset.
+
+### How to fix:
+- Reduce model complexity
+- Use a lower polynomial degree
+- Get more training data
+- Use regularization
+- Remove unnecessary features
+- Use cross-validation
+
+---
+
+## 3. Balanced Fit
+
+A balanced fit occurs when the model is complex enough to learn the important pattern but not so complex that it learns noise.
+
+### Characteristics:
+- Low training error
+- Low testing error
+- Training and testing performance are reasonably close
+- Good generalization
+- Balanced bias and variance
+
+### Goal:
+The model should perform well not only on training data but also on unseen testing data.
+
+---
+
+## Comparison
+
+| Feature | Underfitting | Balanced Fit | Overfitting |
+|--------|--------------|--------------|-------------|
+| Model complexity | Too low | Appropriate | Too high |
+| Training error | High | Low | Very low |
+| Testing error | High | Low | High |
+| Bias | High | Balanced | Low |
+| Variance | Low | Balanced | High |
+| Generalization | Poor | Good | Poor |
+
+---
+
+## Polynomial Regression Example
+
+### Degree 1
+A degree-1 polynomial is a straight line and may cause underfitting when the data is curved.
+
+### Degree 2 or 3
+A degree-2 or degree-3 polynomial may provide a balanced fit if it captures the main pattern without following noise.
+
+### Very High Degree
+A very high-degree polynomial may overfit by trying to pass very closely through individual training points.
+
+### Important:
+A high polynomial degree does not automatically mean overfitting. Overfitting depends on how the model performs on unseen data.
+
+---
+
+## Easy Way to Remember
+
+Underfitting → Model has not learned enough.
+
+Balanced Fit → Model learned the useful pattern.
+
+Overfitting → Model learned the training data too closely, including noise.
+
+### Main Goal of Machine Learning:
+
+The goal is not to get the lowest training error.
+
+The goal is to build a model that performs well on unseen data.
