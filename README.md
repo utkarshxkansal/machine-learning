@@ -19,6 +19,7 @@ The goal is to understand the ideas behind each technique, experiment with imple
 
 | Area | What you'll find |
 |---|---|
+| [Foundations](./0foundations/) | Python, NumPy, Pandas, Matplotlib, SQL, and LLM learning materials |
 | [Supervised Learning](./01_Supervised_learning/) | Regression, classification, model evaluation, feature scaling, pipelines, and regularization |
 | [Regression](./01_Supervised_learning/Regression/) | Linear and multiple linear regression, cost function, gradient descent, train/test split, evaluation, polynomial regression, and L1/L2 regularization |
 | [Classification](./01_Supervised_learning/Classification/) | Logistic regression, model evaluation, support vector machines, scaling, scikit-learn pipelines, Naive Bayes, and practice exercises |
@@ -47,10 +48,17 @@ The goal is to understand the ideas behind each technique, experiment with imple
 
 ## Repository structure
 
-The current repository is organized around the supervised-learning material already added:
+The repository is organized into foundational tools and supervised-learning material:
 
 ```text
 machine-learning/
+├── 0foundations/
+│   ├── Python/
+│   ├── Numpy/
+│   ├── Pandas/
+│   ├── Matplotlib/
+│   ├── SQL/
+│   └── LLMs.ipynb
 ├── 01_Supervised_learning/
 │   ├── Classification/
 │   │   ├── 1Logistic Regression/
@@ -103,7 +111,8 @@ Some existing folder names contain legacy spellings. They are retained for now t
 - [x] Add initial regression and classification study material
 - [x] Include practice exercises and supporting datasets
 - [ ] Continue improving notebook explanations and naming
-- [ ] Add NumPy, Pandas, and data visualization study notes
+- [x] Create a foundations area for Python, NumPy, Pandas, Matplotlib, and SQL
+- [ ] Continue adding and organizing foundations notebooks
 - [ ] Add unsupervised learning
 - [ ] Build end-to-end machine learning projects
 - [ ] Explore model deployment
