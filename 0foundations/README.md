@@ -13,7 +13,7 @@ The material is organised by tool so that notes, notebooks, practice exercises, 
 | [Pandas](./Pandas/) | DataFrames, reading/writing data, missing values, grouping, and data exploration | Notebooks, exercises, and sample datasets |
 | [Matplotlib](./Matplotlib/) | Plotting and visual exploration, including Matplotlib/Seaborn practice | Notebooks and small spreadsheet examples |
 | [SQL](./SQL/) | SQL query practice organised by chapter and exercise | SQL files |
-| [LLM notes](./LLms.ipynb) | Early notes and experiments related to large language models | Jupyter notebook |
+| [LLM notes](./llms.ipynb) | Early notes and experiments related to large language models | Jupyter notebook |
 
 ## Getting started
 
