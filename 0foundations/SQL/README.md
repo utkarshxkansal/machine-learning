@@ -1,16 +1,15 @@
 # SQL
 
-This folder contains my SQL learning notes and query practice.
+SQL notes and query exercises, organized by chapter.
 
-## Topics
-- SELECT, WHERE, and ORDER BY
-- DISTINCT and LIMIT
-- Aggregate functions
-- GROUP BY and HAVING
-- Joins
-- Subqueries
-- Common table expressions
-- Window functions
+## Learning files
+- [Chapter 1](chapter_1.sql)
+- [Chapter 2](chapter_2.sql)
+- [Chapter 3](chapter_3.sql)
+- [Chapter 4](chapter_4.sql)
+- [Chapter 5](chapter_5.sql)
+- [Exercise 1](exercise_1.sql)
+- [Exercise 2](exercise_2.sql)
 
-## Purpose
-Build the database querying skills needed to retrieve, filter, and analyze data.
+## Goal
+Practice querying, filtering, grouping, and analyzing relational data.
