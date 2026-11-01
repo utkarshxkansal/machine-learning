@@ -1,15 +1,20 @@
 # NumPy
 
-This folder contains my NumPy learning notes and practice notebooks.
+NumPy practice for numerical computing and working with multidimensional arrays.
 
 ## Topics
-- NumPy arrays and array creation
-- Array indexing and slicing
-- Reshaping and dimensions
-- Broadcasting
-- Vectorized operations
-- Aggregations and statistical functions
-- Working with random numbers
+- Array creation, properties, indexing, and slicing
+- Reshaping, flattening, and modifying arrays
+- Broadcasting and vectorization
+- Stacking, concatenation, insertion, and deletion
+- Aggregation and handling missing values
 
-## Purpose
-Learn efficient numerical computing and array operations used throughout data science and machine learning.
+## Practice folders
+- [Array properties](array_properties/)
+- [Reshaping and modifying arrays](reshaping_and_modifying_arrays/)
+- [Slicing](slicing/)
+- [Vectorization](vectorization/)
+- [Handling missing values](handling_missing_values/)
+
+## Goal
+Learn efficient numerical operations used in data analysis and machine learning.
