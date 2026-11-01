@@ -1,0 +1,10 @@
+# Core libraries used across the learning notebooks.
+# Install with: pip install -r requirements.txt
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+jupyter
+openpyxl
