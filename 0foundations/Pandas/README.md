@@ -1,16 +1,19 @@
 # Pandas
 
-This folder contains my Pandas practice and notes for data analysis.
+Pandas practice for loading, exploring, cleaning, and analyzing datasets.
 
 ## Topics
 - Series and DataFrames
-- Reading and writing datasets
-- Inspecting and cleaning data
-- Filtering and selecting rows and columns
+- Reading and writing CSV, Excel, and JSON files
+- Inspecting and selecting data
 - Handling missing values
 - Grouping and aggregation
-- Merging and joining
-- Sorting and basic data analysis
+- Sorting, filtering, and basic analysis
 
-## Purpose
-Develop practical skills for exploring, cleaning, and preparing datasets for machine learning.
+## Practice folders
+- [Reading data](reading_data/)
+- [Writing and reading Excel/CSV](read_write_excel_and_csv/)
+- [Handling missing values](handling_missing_values/)
+- [Group by and aggregation](group_by/)
+
+Datasets and exercise files are kept alongside the notebooks that use them.
