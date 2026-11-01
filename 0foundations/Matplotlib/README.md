@@ -1,14 +1,16 @@
 # Matplotlib
 
-This folder contains my Matplotlib learning notes and visualization practice.
+Matplotlib and Seaborn practice for data visualization.
 
 ## Topics
-- Line, bar, and scatter plots
+- Line charts and scatter plots
 - Histograms
-- Figure and axes
-- Titles, labels, legends, and grids
-- Subplots
-- Customizing and saving plots
+- Labels, titles, legends, and grids
+- Figure sizing and plot customization
+- Saving and interpreting visualizations
 
-## Purpose
-Learn to visualize data, understand patterns, and communicate analysis clearly.
+## Files
+- [Visualization tutorial notebook](matplotlib_seaborn_tutorial.ipynb)
+- [Practice notebook](matplotlib_practice.ipynb)
+
+Excel files in this folder are supporting practice data.
